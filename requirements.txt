@@ -1,0 +1,17 @@
+REQUISITOS
+
+1 - Python 3.6+
+
+2 - GnuPG 2.2.4+
+- o software, as bibliotecas e as instruções para instalação estão disponíveis em https://www.gnupg.org/download/index.html
+
+3 - Módulos
+- gnupg
+- shutil
+- os
+- getpass
+- pandas
+- pyperclip
+- sys
+
+("pip install <módulo>" no terminal do Linux, para instalar os que não vierem com o Python 3.6)
