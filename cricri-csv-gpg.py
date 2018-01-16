@@ -22,7 +22,7 @@ while os.path.exists(arquivo_cri) == False:
 
 arquivo_out = input('Nome do arquivo descriptografado (com a extensão .csv): ')
 
-key = getpass.getpass('Nome da chave privada: ')
+key = getpass.getpass('Chave privada: ')
 x = 1
 while os.path.exists(key) == False:
     key = getpass.getpass(f'Chave não encontrada.\nTente de novo ({x+1}/3):\nNome da chave privada: ')
