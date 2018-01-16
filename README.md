@@ -14,9 +14,9 @@ Boas práticas de segurança recomendam o armazenamento dos arquivos criptografa
 Essa configuração permite ao usuário utilizar o script em qualquer computador, mesmo em locais públicos numa situação de emergência. Para isso, deve dar o boot pelo pendrive, fazer a consulta, encerrar o sistema e desligar a máquina, apagando assim praticamente todos os rastros da operação.
 
 #### UTILITÁRIOS
-CHA-GPG - O script cha-gpg.py cria um par de chaves RSA, caso o usuário necessite. Deve ser usado apenas em situações extremas, por conta de fragilidades conhecidas nas chaves RSA geradas em ambiente Python. Se for o caso, recomenda-se que as elas tenham prazo curto de validade e sejam descartadas assim que cumprirem a função a que se destinam.
+CHA-GPG - O script cha-gpg.py cria um par de chaves RSA, caso o usuário necessite. Deve ser usado apenas em situações extremas, por conta de fragilidades conhecidas nas chaves RSA geradas em ambiente Python. Se for o caso, recomenda-se que tenham prazo curto de validade e sejam descartadas assim que cumprirem a função a que se destinam.
 
-CRICRI-CSV-GPG - O script cricri-csv-gpg.py completa o kit de campo. Ao invés de gerar um dataframe para consultas, ele limita-se a utilizar a chave privada e a respectiva senha para criar um novo arquivo aberto, em formato csv. Deve ser utilizado apenas nas situações em que o usuário tenha certeza de que o risco de acesso indesejável é praticamente inexistente.
+CRICRI-CSV-GPG - O script cricri-csv-gpg.py completa o kit de campo. Ao invés de gerar um dataframe para consultas, ele limita-se a utilizar a chave privada e a respectiva senha para criar um novo arquivo aberto, em formato csv. Deve ser utilizado apenas nas situações em que o risco de acesso indesejável for praticamente inexistente.
 
 
 #### SISTEMAS OPERACIONAIS
