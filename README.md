@@ -5,7 +5,7 @@ A ideia é fornecer um dataframe seguro para consultas a informações armazenad
 #### SCRIPTS
 O conjunto é formado por duas peças principais (cri-gpg.py , cricri-gpg.py) e dois utilitários (cha-gpg.py, cricri-csv-gpg.py).
 
-CRI-GPG - O script cri-gpg.py utiliza a chave pública RSA do usuário para criptografar planilhas geradas em formato-texto ( .csv) ou Excel (.xlsx). A operação deve ser feita num computador seguro, no local de trabalho ou na casa do usuário.
+CRI-GPG - O script cri-gpg.py utiliza a chave pública RSA do usuário para criptografar planilhas geradas em formato-texto (.csv) ou Excel (.xlsx). A operação deve ser feita num computador seguro, no local de trabalho ou na casa do usuário.
 
 CRICRI-GPG - Em campo, a consulta é feita com o uso da chave privada e a respectiva senha pelo script cricri-gpg.py, que reconstrói a planilha em segundo plano, cria o dataframe e a interface de texto para o usuário num terminal Linux.
 
