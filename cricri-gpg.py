@@ -23,7 +23,7 @@ def main():
         shutil.rmtree('doctemp')
     gpg = gnupg.GPG(homedir='doctemp')
 
-    key = getpass.getpass('Nome da chave privada: ')
+    key = getpass.getpass('Chave privada: ')
     x = 1
     while os.path.exists(key) == False:
         key = getpass.getpass(f'Chave não encontrada.\nTente de novo ({x+1}/3):\nNome da chave privada: ')
@@ -80,13 +80,13 @@ def main():
 
     def consulta():
         print('\nO índice para a consulta é a coluna 0, em que estão os nomes para a pesquisa.')
-        nome = input('\nDigite o nome: ')
+        nome = input('\nNome: ')
         if nome not in df.index:
             print('Não encontrado')
 
         else:
             print('\nAs informações associadas ao nome estão nas colunas seguintes (1, 2, 3 etc).')
-            campo = input('\nDigite a coluna: ')
+            campo = input('\nNúmero da coluna: ')
             result = df.loc[nome,[int(campo)]]
             result = str(result)
             result = result.split()
