@@ -27,7 +27,7 @@ def main():
     chave_publica = getpass.getpass('Chave pública: ')
     x = 1
     while os.path.exists(chave_publica) == False:
-        chave_publica = getpass.getpass(f'Chave não encontrada.\nTente de novo ({x+1}/3):\nNome da chave (sem a extensão): ')
+        chave_publica = getpass.getpass(f'Chave não encontrada.\nTente de novo ({x+1}/3):\nNome da chave: ')
         if x == 3:
             print('Chave não encontrada')
             sys.exit()
