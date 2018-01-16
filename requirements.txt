@@ -3,7 +3,7 @@ REQUISITOS
 1 - Python 3.6+
 
 2 - GnuPG 2.2.4+
-- o software, as bibliotecas e as instruções para instalação estão disponíveis em 	https://www.gnupg.org/download/index.html
+- o software, as bibliotecas e as instruções para instalação estão disponíveis em https://www.gnupg.org/download/index.html
 
 3 - Módulos
 - gnupg
