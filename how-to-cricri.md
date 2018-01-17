@@ -6,7 +6,7 @@
 
       python3 cri-gpg.py
 
- Em pacotes como o Anaconda, em que o Python 3.6 torna-se o padrão para o sistema operacional, digite:
+ Em pacotes como o Anaconda, em que o Python 3.6 se torna o padrão para o sistema operacional, digite:
       
       python cri-gpg.py
 
