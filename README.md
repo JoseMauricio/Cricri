@@ -29,10 +29,12 @@ Há outros dois módulos com potencial de uso: pycryptodome e python-gnupg. Ambo
 #### TODO
 - Testes sobre a qualidade da criptografia utilizada são extremamente bem-vindos.
 
-- Testes em ambiente OSx
+- Testes em ambiente OSx.
 
 - Pesquisar soluções para o uso do módulo gnupg em ambiente Windows.
 
-- Desenvolver versões estáveis dos scripts com outros módulos de criptografia, que rodem nos três sistemas operacionais mais usados (em testes: pycryptodome e python-gnupg)
+- Desenvolver versões estáveis dos scripts com outros módulos de criptografia, que rodem nos três sistemas operacionais mais usados (em testes: pycryptodome e python-gnupg).
 
-- Pesquisar soluções possíveis para o uso em sistemas Android e iOS
+- Pesquisar soluções possíveis para o uso em sistemas Android e iOS.
+
+- Desenvolver e testar interface gráfica para as consultas.
