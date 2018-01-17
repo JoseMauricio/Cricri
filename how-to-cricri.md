@@ -6,7 +6,7 @@
 
       python3 cri-gpg.py
 
- Em pacotes como o Anaconda, em que o Python 3.6 se torna o padrão para o sistema operacional, digite:
+ Em computadores com pacotes como o Anaconda instalados, que tornam o Python 3.6 padrão para o sistema operacional, digite:
       
       python cri-gpg.py
 
@@ -38,8 +38,8 @@ Digite a informação pedida. Lembre-se que o arquivo com a chave pública (com 
 
       python3 cricri-gpg.py
 
-Se o Python 3.6 é o padrão, digite:
-
+Em computadores com pacotes como o Anaconda instalados, que tornam o Python 3.6 padrão para o sistema operacional, digite:
+      
       python cricri-gpg.py
 
 2 - Digite a informação pedida no primeiro campo:
@@ -113,8 +113,8 @@ Se digitar S, o processo inicia-se outra vez, a partir do ítem 5. Lembre-se de 
       
       python3 cricri-csv-gpg.py
  
-Em pacotes como o Anaconda, em que o Python 3.6 se torna o padrão para o sistema operacional, digite:
-
+Em computadores com pacotes como o Anaconda instalados, que tornam o Python 3.6 padrão para o sistema operacional, digite:
+      
       python cricri-csv-gpg.py
 
 2 - O fluxo do programa é idêntico ao do cricri-gpg até o ítem 3. O script pede então uma informação adicional:
