@@ -110,9 +110,12 @@ Se digitar S, o processo inicia-se outra vez, a partir do ítem 5. Lembre-se de 
 #### cricri-csv-gpg
 
 1 - No terminal Linux, digite:
+      
       python3 cricri-csv-gpg.py
+ 
+Em pacotes como o Anaconda, em que o Python 3.6 se torna o padrão para o sistema operacional, digite:
 
-      (ou "python cricri-csv-gpg.py", sem as aspas).
+      python cricri-csv-gpg.py
 
 2 - O fluxo do programa é idêntico ao do cricri-gpg até o ítem 3. O script pede então uma informação adicional:
 
